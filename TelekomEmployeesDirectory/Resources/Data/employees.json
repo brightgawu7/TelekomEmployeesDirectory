@@ -1,0 +1,1402 @@
+
+[
+    {
+        "id": "ccebc83e-6ec7-4c9b-a6a2-15ff440fca92",
+        "name": "John Doe",
+        "position": "Software Engineer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Alice Smith",
+            "country": "Germany",
+            "street": "123 Tech Street",
+            "city": "Berlin"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45" ],
+        "email": "john.doe@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZmxD2aDovnBXkQ0MveAcMnMUBUdxbk0UhKA&s",
+        "phone": "+49 170 1234567"
+    },
+    {
+        "id": "b3708a82-9617-4cf6-8a55-2be131f0ba56",
+        "name": "Jane Elizabeth Smith",
+        "position": "Product Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Bob Johnson",
+            "country": "USA",
+            "street": "456 Elm Street",
+            "city": "New York"
+        },
+        "team": {
+            "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+            "name": "Data-Driven Insights and Analytics"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45" ],
+        "email": "jane.smith@example.com",
+        "image": "https://www.perfocal.com/blog/content/images/size/w1920/2021/01/Perfocal_17-11-2019_TYWFAQ_100_standard-3.jpg",
+        "phone": "+1 212-123-4567"
+    },
+    {
+        "id": "9c38b72e-9738-48e9-b82a-430c16b6c73e",
+        "name": "Michael James Johnson",
+        "position": "UI/UX Designer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Clara White",
+            "country": "Canada",
+            "street": "789 Design Avenue",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Next-Gen Technology Integration Squad"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "2f473849-823b-40c7-83de-2b2f2d59bbf5", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "michael.johnson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWfi_8DyAPkg6mDzvjkVhUWZ9MgsjoJe1q3F5zy_GvOOfDBZIWLFOkUZPFUVWNIshhRzw&usqp=CAU",
+        "phone": "+1 416-456-7890"
+    },
+    {
+        "id": "3f388a12-3b8e-4e56-b3e1-7c27cc5a6b36",
+        "name": "Laura Ann Davis",
+        "position": "Marketing Specialist",
+        "employeeType": "external",
+        "address": {
+            "office": "Daniel Green",
+            "country": "France",
+            "street": "112 Marketing Blvd",
+            "city": "Paris"
+        },
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "laura.davis@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRM7BBwlp71G4bPIYcPPGlUvvnME4DXRexw&s",
+        "phone": "+33 1 23 45 67 89"
+    },
+    {
+        "id": "b1c7a60b-678d-46ae-9001-12b00028d6b3",
+        "name": "Jack Brown",
+        "position": "Backend Developer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Eva Fisher",
+            "country": "Germany",
+            "street": "58 Backend Street",
+            "city": "Munich"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"]
+        ,
+        "email": "jack.brown@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSnB_pe7Bkc9GB1Lx9a7bLfd23t0FleZxYA&s",
+        "phone": "+49 89 1234567"
+    },
+    {
+        "id": "7f50c2b6-4d6f-4501-b0d1-59b2c820f347",
+        "name": "Olivia Taylor",
+        "position": "Data Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Frank Moore",
+            "country": "UK",
+            "street": "26 Data Lane",
+            "city": "London"
+        },
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"]
+        ,
+        "email": "olivia.taylor@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk_nIiXvWFWyV64bFUtfATT242m-7i3CDfxg&s",
+        "phone": "+44 20 7946 0958"
+    },
+    {
+        "id": "4d7c5e9d-d6c4-4bc0-8cf1-53cf631e0410",
+        "name": "David King",
+        "position": "HR Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Sophia King",
+            "country": "Australia",
+            "street": "80 HR Street",
+            "city": "Sydney"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "david.king@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0m2PESBfQ1b8fRa05HGNqQmdsU2kJeYEACw&s",
+        "phone": "+61 2 9876 5432"
+    },
+    {
+        "id": "23a3c4f3-0d6e-455d-b9b1-935b4b4d9d4d",
+        "name": "Emily Jane Foster",
+        "position": "Quality Assurance Engineer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Zoe Taylor",
+            "country": "USA",
+            "street": "99 QA Road",
+            "city": "San Francisco"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Quality Assurance"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"]
+,
+        "email": "emily.foster@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0m2PESBfQ1b8fRa05HGNqQmdsU2kJeYEACw&s",
+        "phone": "+1 415-678-9012"
+    },
+    {
+        "id": "d2c8a27b-69b5-42f1-b1f3-bf9a79d8a23e",
+        "name": "Liam Matthew Davis",
+        "position": "Network Engineer",
+        "employeeType": "external",
+        "address": {
+            "office": "Lucas Foster",
+            "country": "Ireland",
+            "street": "15 Network Lane",
+            "city": "Dublin"
+        },
+        "team": {
+            "id": "8c5e88c6-bb7a-4bc3-b2c0-5e42f9cc6241",
+            "name": "Collaborative Leadership Task Force"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09"],
+        "email": "liam.davis@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxDjWeVpdDcCK2yc0EnTucoM1r9LZARHS2Q&s",
+        "phone": "+353 1 2345678"
+    },
+    {
+        "id": "ea7b9d88-6f74-43ea-b22b-2085e726ba56",
+        "name": "Henry Blake",
+        "position": "Frontend Developer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Alice Smith",
+            "country": "USA",
+            "street": "88 Frontend Avenue",
+            "city": "Los Angeles"
+        },
+        "team": {
+            "id": "ca71d917-4dbb-4c9b-bd71-2e2ed89609f9",
+            "name": "Strategic Growth and Vision Team"
+        },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "henry.blake@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_1bpO0XDD8fbmRvnbnkCoQNFFoH3AqofVTg&s",
+        "phone": "+1 323-456-7890"
+    },
+    {
+        "id": "5d018104-5b06-4d72-9b2d-01d290496e43",
+        "name": "Sophia Mason",
+        "position": "Business Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Bob Johnson",
+            "country": "Canada",
+            "street": "45 Business Park",
+            "city": "Vancouver"
+        },
+        "team": {
+            "id": "c3e20757-81c6-48a1-b73f-b9bc84c1f41a",
+            "name": "Innovative Solutions Development Team"
+        },
+        "reportingLines": ["2e12d1f5-df3d-44b7-b23e-c51d4d0241da", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "sophia.mason@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSC4YpV2Wsenk9MEeoauZ1RLX_AFbdS1EhSg&s",
+        "phone": "+1 604-123-4567"
+    },
+    {
+        "id": "ed19b3c5-43c4-4385-bf18-a5abda4f3b3e",
+        "name": "Isaac Owen",
+        "position": "System Architect",
+        "employeeType": "external",
+        "address": {
+            "office": "Clara White",
+            "country": "France",
+            "street": "102 Architecture Blvd",
+            "city": "Paris"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "isaac.owen@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTcMq0HGAJmy8ZyfmASghS3IHEw-8jv0eew&s",
+        "phone": "+33 1 45 67 89 01"
+    },
+    {
+        "id": "347ecb10-5686-4f90-bf52-c5ac4b11c7ba",
+        "name": "Rachel Morgan",
+        "position": "Content Writer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Daniel Green",
+            "country": "UK",
+            "street": "89 Content Road",
+            "city": "London"
+        },
+        "team": {
+            "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+            "name": "Data-Driven Insights and Analytics"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "rachel.morgan@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQnG19ljI8YXx06SyanUxS8OmZp4FS6uUwWQ&s",
+        "phone": "+44 20 7654 3210"
+    },
+    {
+        "id": "a79ff0c9-9894-44e2-9e4f-3f47e2d6a392",
+        "name": "William James",
+        "position": "DevOps Engineer",
+        "employeeType": "external",
+        "address": {
+            "office": "Eva Fisher",
+            "country": "Germany",
+            "street": "20 DevOps Way",
+            "city": "Berlin"
+        },
+    
+    "team": {
+        "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+        "name": "Next-Gen Technology Integration Squad"
+    },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "william.james@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQKYK3Z-brarkS6HlNUOYHt1vH03rOs_aebA&s",
+        "phone": "+49 30 1234567"
+    },
+    {
+        "id": "3c845b68-ff7b-4c7d-b063-61d09c9f067f",
+        "name": "Emma Louise Brown",
+        "position": "Quality Assurance Lead",
+        "employeeType": "internal",
+        "address": {
+            "office": "Frank Moore",
+            "country": "Australia",
+            "street": "77 QA Blvd",
+            "city": "Sydney"
+        },
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "emma.brown@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzn4d851OKkmhRNkLl7bvAKuEGYXp9vHnLfA&s",
+        "phone": "+61 2 9876 5432"
+    },
+    {
+        "id": "9e6b35ff-d4cd-47e9-812a-dc370c3709e6",
+        "name": "Lucas Patrick Taylor",
+        "position": "Cloud Engineer",
+        "employeeType": "external",
+        "address": {
+            "office": "Sophia King",
+            "country": "Ireland",
+            "street": "32 Cloud Lane",
+            "city": "Dublin"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"],
+        "email": "lucas.taylor@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt5w1cb-CtSk_E0KjY5u6pb_mP9F2IaAgbcA&s",
+        "phone": "+353 1 2345678"
+    },
+    {
+        "id": "227489f0-5297-420f-bf91-a8b9c65cc1d3",
+        "name": "Grace Emily Foster",
+        "position": "Project Manager",
+        "employeeType": "internal",
+        "address": {
+            "office": "Zoe Taylor",
+            "country": "UK",
+            "street": "13 Project Avenue",
+            "city": "Manchester"
+        },
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "2f473849-823b-40c7-83de-2b2f2d59bbf5", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "grace.foster@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa9TP3NL93Ul57vk0Cob7fD7eYO1eaSYmcKQ&s",
+        "phone": "+44 161 9876543"
+    },
+    {
+        "id": "98bc8762-40d4-4b66-8c86-cb6a71c19f5c",
+        "name": "Jack Henry Davis",
+        "position": "Security Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Lucas Foster",
+            "country": "USA",
+            "street": "98 Security Way",
+            "city": "San Francisco"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "jack.davis@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhLBV2gL7AZt6i3yO3rbk6G0i7GmiWSLQHsA&s",
+        "phone": "+1 415-987-6543"
+    },
+    {
+        "id": "b98c1eb5-ea2e-4e0c-9059-4a8e8d16d10b",
+        "name": "Olivia Grace Harris",
+        "position": "Software Engineer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Aiden Young",
+            "country": "Canada",
+            "street": "50 Software St",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "8c5e88c6-bb7a-4bc3-b2c0-5e42f9cc6241",
+            "name": "Collaborative Leadership Task Force"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "olivia.harris@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRM7BBwlp71G4bPIYcPPGlUvvnME4DXRexw&s",
+        "phone": "+1 416-123-7890"
+    },
+    {
+        "id": "ccf7bdf3-2d42-4028-8f61-02c7a2d1c622",
+        "name": "Amelia Grace Lee",
+        "position": "Marketing Director",
+        "employeeType": "internal",
+        "address": {
+            "office": "Harrison Moore",
+            "country": "USA",
+            "street": "58 Marketing Rd",
+            "city": "New York"
+        },
+        "team": {
+            "id": "ca71d917-4dbb-4c9b-bd71-2e2ed89609f9",
+            "name": "Strategic Growth and Vision Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "amelia.lee@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZO8GPm0phbELvMAA6QsEOYilHs0Fnmq3k2w&s",
+        "phone": "+1 212-555-7890"
+    },
+    {
+        "id": "25d62eb7-45f4-411f-973a-c3bb7c8a6d00",
+        "name": "Lucas Samuel Carter",
+        "position": "Full Stack Developer",
+        "employeeType": "external",
+        "address": {
+            "office": "Ella Green",
+            "country": "Canada",
+            "street": "9 Stack Lane",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "c3e20757-81c6-48a1-b73f-b9bc84c1f41a",
+            "name": "Innovative Solutions Development Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"]
+,
+        "email": "lucas.carter@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWdUFcviJr_Al4MM007m6XSpZV0aYiU9z_jw&s",
+        "phone": "+1 416-987-6543"
+    },
+    {
+        "id": "d2a5ab5b-68cd-44a2-83e5-6bc8e84245f7",
+        "name": "Evelyn Rose Turner",
+        "position": "Data Scientist",
+        "employeeType": "external",
+        "address": {
+            "office": "Mason Anderson",
+            "country": "UK",
+            "street": "34 Data St",
+            "city": "London"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "2f473849-823b-40c7-83de-2b2f2d59bbf5", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "evelyn.turner@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlAoJeO3cIsf37Kj-rShH1oi_q-BZ4vN7LXg&s",
+        "phone": "+44 20 5555 6789"
+    },
+    {
+        "id": "56456861-3f0e-44e9-a41d-daf67f6b7563",
+        "name": "Sophia Bella Ross",
+        "position": "HR Manager",
+        "employeeType": "internal",
+        "address": {
+            "office": "Daniel Fisher",
+            "country": "Australia",
+            "street": "90 HR Blvd",
+            "city": "Melbourne"
+        },
+        "team": {
+            "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+            "name": "Data-Driven Insights and Analytics"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "sophia.ross@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJNHvLePfLltUK3tsY2tXXFwe5_2zSDudxoA&s",
+        "phone": "+61 3 4567 8901"
+    },
+    {
+        "id": "ebbe5bc1-6b04-47e6-8e43-76b40c5c6e73",
+        "name": "James Andrew Walker",
+        "position": "Product Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Mia Turner",
+            "country": "USA",
+            "street": "102 Product Lane",
+            "city": "Austin"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Next-Gen Technology Integration Squad"
+        },
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"],
+        "email": "james.walker@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFu5WDw6aMzlagbH8C4SjJ0NpznQXPSxAiw&s",
+        "phone": "+1 512-234-5678"
+    },
+    {
+        "id": "b4ef9de6-a58d-4d77-bc1b-baf1e25d08c4",
+        "name": "Olivia Mae Davis",
+        "position": "UI/UX Designer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Ethan Foster",
+            "country": "Germany",
+            "street": "67 Design St",
+            "city": "Berlin"
+        },
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"],
+        "email": "olivia.davis@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzwvElHJ-_i55mcoRm4ZZWB0aNS46isKR9Ng&s",
+        "phone": "+49 30 8765 4321"
+    },
+    {
+        "id": "2e8d41d1-04b7-4b55-bad0-5a0fc4a34750",
+        "name": "Noah Michael Smith",
+        "position": "Backend Engineer",
+        "employeeType": "external",
+        "address": {
+            "office": "Isabella King",
+            "country": "Canada",
+            "street": "33 Backend Rd",
+            "city": "Montreal"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "noah.smith@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn8AjZgzH-nX-51el_14JWv00IEBWqiTGsIg&s",
+        "phone": "+1 514-345-6789"
+    },
+    {
+        "id": "3a29a5a0-6d21-4f42-8fa7-d8cc35f28fe0",
+        "name": "Chloe Abigail Turner",
+        "position": "SEO Specialist",
+        "employeeType": "internal",
+        "address": {
+            "office": "Oliver Martinez",
+            "country": "UK",
+            "street": "16 SEO St",
+            "city": "Manchester"
+        },
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "chloe.turner@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYSnB_pe7Bkc9GB1Lx9a7bLfd23t0FleZxYA&s",
+        "phone": "+44 161 5678 9123"
+    },
+    {
+        "id": "af5b84b9-4fe5-4126-86c0-0c780a2116b7",
+        "name": "Benjamin Ryan Johnson",
+        "position": "Network Administrator",
+        "employeeType": "external",
+        "address": {
+            "office": "Matthew Scott",
+            "country": "USA",
+            "street": "24 Network Ave",
+            "city": "Chicago"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09"],
+        "email": "benjamin.johnson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlfAZNmqPLDIsZm9NQHL3bJJQk0tOIK4uG6A&s",
+        "phone": "+1 312-234-5678"
+    },
+    {
+        "id": "8dadae8a-5024-4003-b39b-875fb0b3850f",
+        "name": "Avery Lucas Thomas",
+        "position": "DevOps Engineer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Eliza Wilson",
+            "country": "Australia",
+            "street": "78 DevOps St",
+            "city": "Sydney"
+        },
+        "team": {
+            "id": "8c5e88c6-bb7a-4bc3-b2c0-5e42f9cc6241",
+            "name": "Collaborative Leadership Task Force"
+        },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "avery.thomas@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg-nF-C88_fS8-Cap_j_RhotxddFLCdXVHmg&s",
+        "phone": "+61 2 2345 6789"
+    },
+    {
+        "id": "74e3ab2d-e3f1-4b1b-99b7-cf6bce39d063",
+        "name": "Isabella Grace Nelson",
+        "position": "Product Designer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Harper Brooks",
+            "country": "USA",
+            "street": "53 Design Blvd",
+            "city": "San Francisco"
+        },
+        "team": {
+            "id": "ca71d917-4dbb-4c9b-bd71-2e2ed89609f9",
+            "name": "Strategic Growth and Vision Team"
+        },
+        "reportingLines": ["2e12d1f5-df3d-44b7-b23e-c51d4d0241da", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "isabella.nelson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW7Vi-n7ipwJVID8i20OI5ub4PpeALD5oe1A&s",
+        "phone": "+1 415-567-8901"
+    },
+    {
+        "id": "aa132b2d-1027-42d2-8310-98cd07c8c924",
+        "name": "Ethan Noah Collins",
+        "position": "Software Engineer",
+        "employeeType": "external",
+        "address": {
+            "office": "Lily Morris",
+            "country": "Canada",
+            "street": "90 Code Dr",
+            "city": "Vancouver"
+        },
+        "team": {
+            "id": "c3e20757-81c6-48a1-b73f-b9bc84c1f41a",
+            "name": "Innovative Solutions Development Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "ethan.collins@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-WDVXiZSuSUUeURxbBZl4SvMnwmDNdO65LA&s",
+        "phone": "+1 604-890-1234"
+    },
+    {
+        "id": "2fc47be2-d113-4123-9cd4-c82c04f3a1f3",
+        "name": "Sophie Amelia Wilson",
+        "position": "Finance Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Jackson Carter",
+            "country": "UK",
+            "street": "45 Financial Ave",
+            "city": "Manchester"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "sophie.wilson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXSvNvTy7Zowoep7o-MPuZVScrlVoZJQkwg&s",
+        "phone": "+44 161 4567 8901"
+    },
+    {
+        "id": "77d1166a-4470-42c9-8df9-c3c0840d7a99",
+        "name": "Jack Oliver Peterson",
+        "position": "Database Administrator",
+        "employeeType": "internal",
+        "address": {
+            "office": "Madison Clark",
+            "country": "Australia",
+            "street": "12 Database St",
+            "city": "Sydney"
+        },
+        "team": {
+            "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+            "name": "Data-Driven Insights and Analytics"
+        },
+        "reportingLines": ["2e12d1f5-df3d-44b7-b23e-c51d4d0241da", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "jack.peterson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeYlB1iDTa0ttGAEn0L3sPl_g48L92D2VtXA&s",
+        "phone": "+61 2 3456 7890"
+    },
+    {
+        "id": "fb6cc9a9-3db7-44b9-a9d1-7d736c2150f7",
+        "name": "Madison Grace Stevens",
+        "position": "Marketing Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Benjamin Cole",
+            "country": "USA",
+            "street": "32 Marketing Blvd",
+            "city": "Los Angeles"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Next-Gen Technology Integration Squad"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09"],
+        "email": "madison.stevens@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCYGGLRrkaNMNYTKy7_Ht5x04TZahU-uf5zg&s",
+        "phone": "+1 323-123-4567"
+    },
+    {
+        "id": "f12ab2b3-1b43-4230-b0b2-7b7b735d95f2",
+        "name": "Ava Olivia Thompson",
+        "position": "Content Manager",
+        "employeeType": "internal",
+        "address": {
+            "office": "Grayson Wright",
+            "country": "UK",
+            "street": "60 Content Ln",
+            "city": "Bristol"
+        },
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "ava.thompson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVx_lgcXHLJqTuhHiSB0B4wmShDxRK2TYuFg&s",
+        "phone": "+44 117 5432 9876"
+    },
+    {
+        "id": "89c8c8d3-3c78-45f1-b62d-365b47729215",
+        "name": "Mason Elijah Adams",
+        "position": "Business Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Ella Hamilton",
+            "country": "Canada",
+            "street": "22 Analysis Ave",
+            "city": "Ottawa"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "mason.adams@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIUwhJzBZ4SPXt-yDUPtbVZj0NmaUIm6W58w&s",
+        "phone": "+1 613-456-7890"
+    },
+    {
+        "id": "06a34b43-2b5b-4be4-a8ae-d544d273f33a",
+        "name": "Lily Rose Brooks",
+        "position": "UX Researcher",
+        "employeeType": "internal",
+        "address": {
+            "office": "Evelyn Richardson",
+            "country": "Germany",
+            "street": "11 Research St",
+            "city": "Berlin"
+        },
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"],
+        "email": "lily.brooks@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUYvz0P3LjmJvlL3cw9qlq1fKZITX5EQfKwg&s",
+        "phone": "+49 30 8765 4321"
+    },
+    {
+        "id": "af4e1b56-96de-4b2c-8a37-7f60c7a29c5a",
+        "name": "Harper Emily Clark",
+        "position": "Product Marketing Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Tyler Martinez",
+            "country": "Canada",
+            "street": "65 Product Blvd",
+            "city": "Montreal"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"],
+        "email": "harper.clark@example.com",
+        "image": "https://picsum.photos/200",
+        "phone": "+1 514-123-4567"
+    },
+    {
+        "id": "2d1fbc5b-2351-4a83-9d0e-0a2a65d9d431",
+        "name": "Mia Grace Hughes",
+        "position": "Sales Associate",
+        "employeeType": "internal",
+        "address": {
+            "office": "Samson Turner",
+            "country": "Australia",
+            "street": "27 Sales Dr",
+            "city": "Melbourne"
+        },
+        "team": {
+            "id": "8c5e88c6-bb7a-4bc3-b2c0-5e42f9cc6241",
+            "name": "Collaborative Leadership Task Force"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "mia.hughes@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwy_YT-YcdZw2vD88eocMf5-aiP0KR0fQxeQ&s",
+        "phone": "+61 3 1234 5678"
+    },
+    {
+        "id": "1f5d2b6d-7f6e-4e4d-a1e4-1d57f0b5d60e",
+        "name": "Liam Alexander Evans",
+        "position": "Software Developer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Sophia Anderson",
+            "country": "USA",
+            "street": "44 Developer St",
+            "city": "New York"
+        },
+        "team": {
+            "id": "ca71d917-4dbb-4c9b-bd71-2e2ed89609f9",
+            "name": "Strategic Growth and Vision Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "2f473849-823b-40c7-83de-2b2f2d59bbf5", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "liam.evans@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7Xuf3cjgtZv__am7zQMRasjCq4bm2sMHPNw&s",
+        "phone": "+1 212-567-8901"
+    },
+    {
+        "id": "63b1a372-7882-4c99-bf1e-78964d6b8b47",
+        "name": "Chloe Isabella Roberts",
+        "position": "HR Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Oliver Davis",
+            "country": "UK",
+            "street": "78 HR Blvd",
+            "city": "London"
+        },
+
+        "team": {
+            "id": "c3e20757-81c6-48a1-b73f-b9bc84c1f41a",
+            "name": "Innovative Solutions Development Team"
+        },
+
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"],
+        "email": "chloe.roberts@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7tkp7RwYEvJM0dJ7K91L5ZDQ6lXOJdXDbA&s",
+        "phone": "+44 20 7946 8901"
+    },
+    {
+        "id": "8f8be07a-43b9-4904-b345-0fc6186f0039",
+        "name": "Eli Jackson Foster",
+        "position": "Business Consultant",
+        "employeeType": "external",
+        "address": {
+            "office": "Grace Young",
+            "country": "Canada",
+            "street": "23 Consulting Dr",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"],
+        "email": "eli.foster@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR25lV-sEnWixl0VKMt7wA9Ofckz7LEdtgk6Q&s",
+        "phone": "+1 416-789-0123"
+    },
+    {
+        "id": "0b6c7885-4d04-40b5-a4e2-0e2e6f9cc6f4",
+        "name": "Lucas William Reed",
+        "position": "Digital Marketer",
+        "employeeType": "external",
+        "address": {
+            "office": "Avery Simmons",
+            "country": "USA",
+            "street": "39 Digital Ave",
+            "city": "Miami"
+        },
+        "team": {
+            "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+            "name": "Data-Driven Insights and Analytics"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "lucas.reed@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg2UYjIh_mqRAWnKFUUyuHASqEEZzFbR2CMw&s",
+        "phone": "+1 305-678-9012"
+    },
+    {
+        "id": "81e0b8b1-1d37-4f93-83b1-17ac21a4fa0d",
+        "name": "Sophie Lily Cooper",
+        "position": "Operations Manager",
+        "employeeType": "internal",
+        "address": {
+            "office": "Riley Morgan",
+            "country": "Australia",
+            "street": "28 Operations St",
+            "city": "Sydney"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Next-Gen Technology Integration Squad"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "sophie.cooper@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEiYUGMR_RG4WanzaWVOkddJt6kIK19vg3uA&s",
+        "phone": "+61 2 3456 7891"
+    },
+    {
+        "id": "9383b5ff-4410-4b4c-a2bb-4d3b49cbb207",
+        "name": "Benjamin Jacob Grant",
+        "position": "Project Coordinator",
+        "employeeType": "external",
+        "address": {
+            "office": "Hannah Brooks",
+            "country": "Canada",
+            "street": "57 Project Dr",
+            "city": "Vancouver"
+        },
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09"],
+        "email": "benjamin.grant@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlyD5YPl8uy8ZcrXHqkgII5dmjt1ZlgF1EPQ&s",
+        "phone": "+1 604-456-7890"
+    },
+    {
+        "id": "ad9ba4c1-4bb6-4c5b-b3ca-3495dce35b5b",
+        "name": "Lily Grace Evans",
+        "position": "Creative Director",
+        "employeeType": "internal",
+        "address": {
+            "office": "Oliver Fox",
+            "country": "USA",
+            "street": "42 Creative Rd",
+            "city": "Los Angeles"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "lily.evans@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6N_8OxqZ0EqJLOJpLJ-582Pi7TndrrU_ntA&s",
+        "phone": "+1 323-234-5678"
+    },
+    {
+        "id": "3a9b345f-12b0-4871-92a4-e6700c3c7b4d",
+        "name": "Jackson Robert Parker",
+        "position": "Data Analyst",
+        "employeeType": "internal",
+        "address": {
+            "office": "Madison Foster",
+            "country": "Canada",
+            "street": "34 Data St",
+            "city": "Ottawa"
+        },
+
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+
+        "reportingLines": ["2e12d1f5-df3d-44b7-b23e-c51d4d0241da", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "jackson.parker@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNb-sfIK-bI1mrHaYPDaxeS9zZ-VRkzmT3OQ&s",
+        "phone": "+1 613-234-5678"
+    },
+    {
+        "id": "3a86e44a-c1e3-47dd-b590-9785f12a2b53",
+        "name": "Harper Noah King",
+        "position": "Product Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Addison Reed",
+            "country": "Australia",
+            "street": "18 Product Rd",
+            "city": "Melbourne"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "harper.king@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrIlyFFKR0kLytfoDIBE5fhvDihwX-wqvHOg&s",
+        "phone": "+61 3 8765 4321"
+    },
+    {
+        "id": "f9c2d4d5-eced-4f6f-81f0-6b393ad74b09",
+        "name": "Emily Kate Howard",
+        "position": "Marketing Executive",
+        "employeeType": "internal",
+        "address": {
+            "office": "Mason Davis",
+            "country": "Canada",
+            "street": "66 Marketing Dr",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "8c5e88c6-bb7a-4bc3-b2c0-5e42f9cc6241",
+            "name": "Collaborative Leadership Task Force"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "emily.howard@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSov7Prm0BVW6yC84KIzcSTGY5FB4dXVUePkg&s",
+        "phone": "+1 416-567-8901"
+    },
+    {
+        "id": "44bc2e9d-c1f1-4f56-9d82-4982ff82a1ed",
+        "name": "Aiden James Smith",
+        "position": "UI/UX Designer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Daniel Green",
+            "country": "USA",
+            "street": "50 Design Blvd",
+            "city": "San Francisco"
+        },
+
+        "team": {
+            "id": "ca71d917-4dbb-4c9b-bd71-2e2ed89609f9",
+            "name": "Strategic Growth and Vision Team"
+        },
+
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "2f473849-823b-40c7-83de-2b2f2d59bbf5", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "aiden.smith@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFu5WDw6aMzlagbH8C4SjJ0NpznQXPSxAiw&s",
+        "phone": "+1 415-987-6543"
+    },
+    {
+        "id": "ba63e0e2-df25-4d18-80ff-4f02095f9f73",
+        "name": "Isabella Grace Johnson",
+        "position": "Marketing Strategist",
+        "employeeType": "external",
+        "address": {
+            "office": "Sophia King",
+            "country": "UK",
+            "street": "22 Strategy Rd",
+            "city": "London"
+        },
+        "team": {
+            "id": "c3e20757-81c6-48a1-b73f-b9bc84c1f41a",
+            "name": "Innovative Solutions Development Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "isabella.johnson@example.com",
+        "image": "https://picsum.photos/200",
+        "phone": "+44 20 7946 1234"
+    },
+    {
+        "id": "72b2fe3e-80c7-4d4d-85d9-5b66d7a5f9b5",
+        "name": "Ethan Matthew Brooks",
+        "position": "Network Administrator",
+        "employeeType": "internal",
+        "address": {
+            "office": "Lucas Foster",
+            "country": "Canada",
+            "street": "99 Network St",
+            "city": "Vancouver"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["2e12d1f5-df3d-44b7-b23e-c51d4d0241da", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "ethan.brooks@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz07JA2WvY9pdFVxl5GTQOIk9VW7h6wDCehQ&s",
+        "phone": "+1 604-321-4321"
+    },
+    {
+        "id": "3b7c99d7-c8d5-4041-8e44-3445b00b3935",
+        "name": "Amelia Grace Stewart",
+        "position": "Financial Analyst",
+        "employeeType": "external",
+        "address": {
+            "office": "Eva Fisher",
+            "country": "USA",
+            "street": "14 Finance Ln",
+            "city": "Chicago"
+        },
+ 
+ "team": {
+     "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+     "name": "Data-Driven Insights and Analytics"
+ },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "amelia.stewart@example.com",
+        "image": "https://fastly.picsum.photos/id/202/200/200.jpg?hmac=eGzhW5P2k0gzjc76Tk5T9lOfvn30h3YHuw5jGnBUY4Y",
+        "phone": "+1 312-654-7890"
+    },
+    {
+        "id": "86c7ebf5-26b1-40ff-b27a-b5b150e3078a",
+        "name": "Henry Jacob Wallace",
+        "position": "Product Designer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Frank Moore",
+            "country": "USA",
+            "street": "62 Product Ave",
+            "city": "Austin"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Next-Gen Technology Integration Squad"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09"],
+        "email": "henry.wallace@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrIlyFFKR0kLytfoDIBE5fhvDihwX-wqvHOg&s",
+        "phone": "+1 512-456-7890"
+    },
+    {
+        "id": "28a8559e-5db7-4e7e-a70f-b2e1c8d4406e",
+        "name": "Madison Rose Thompson",
+        "position": "Content Writer",
+        "employeeType": "external",
+        "address": {
+            "office": "Zoe Taylor",
+            "country": "Australia",
+            "street": "57 Content St",
+            "city": "Sydney"
+        },
+
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "madison.thompson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJjopWCmlem2HazPgNBQ8eoegNqcVXkL1Ndg&s",
+        "phone": "+61 2 8765 4321"
+    },
+    {
+        "id": "3b476d9d-155b-42e9-bef5-eefc89c693a2",
+        "name": "Emma Lily Adams",
+        "position": "SEO Specialist",
+        "employeeType": "internal",
+        "address": {
+            "office": "Clara White",
+            "country": "Canada",
+            "street": "82 SEO St",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "emma.adams@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZO8GPm0phbELvMAA6QsEOYilHs0Fnmq3k2w&s",
+        "phone": "+1 416-765-4321"
+    },
+    {
+        "id": "493bca0c-2f0b-4a12-9889-b11c8a728bfc",
+        "name": "Oliver John Harris",
+        "position": "Software Engineer",
+        "employeeType": "external",
+        "address": {
+            "office": "Alice Smith",
+            "country": "UK",
+            "street": "9 Code Rd",
+            "city": "London"
+        },
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"],
+        "email": "oliver.harris@example.com",
+        "image": "https://fastly.picsum.photos/id/293/200/200.jpg?hmac=6YL5khsW332VGbJLkqIfYLzyXyT1kj358PA64TJtKuw",
+        "phone": "+44 20 7946 7890"
+    },
+    {
+        "id": "2c6d44e0-1118-49c3-b12e-7d9c58d43f93",
+        "name": "Nathan David Morgan",
+        "position": "Business Analyst",
+        "employeeType": "internal",
+        "address": {
+            "office": "Lucas Foster",
+            "country": "Canada",
+            "street": "21 Analysis Ln",
+            "city": "Montreal"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"],
+        "email": "nathan.morgan@example.com",
+        "image": "https://fastly.picsum.photos/id/411/200/200.jpg?hmac=OVYhfXZUSeIPuy2vvqvn56l4Y8YZjUzJ57HIaxnjdTQ",
+        "phone": "+1 514-567-8901"
+    },
+    {
+        "id": "9d03f587-d054-4623-9f23-d18e79b78c3c",
+        "name": "Scarlett Mae Black",
+        "position": "HR Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Mason Scott",
+            "country": "USA",
+            "street": "45 Human Resources Dr",
+            "city": "New York"
+        },
+        "team": {
+            "id": "8c5e88c6-bb7a-4bc3-b2c0-5e42f9cc6241",
+            "name": "Collaborative Leadership Task Force"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "scarlett.black@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzn4d851OKkmhRNkLl7bvAKuEGYXp9vHnLfA&s",
+        "phone": "+1 212-555-9876"
+    },
+    {
+        "id": "fe9bfa1e-2a83-4de6-bf9f-5c2a5c387865",
+        "name": "Logan Alexander Lee",
+        "position": "Cloud Engineer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Daniel Green",
+            "country": "USA",
+            "street": "27 Cloud St",
+            "city": "Dallas"
+        },
+        "team": {
+            "id": "ca71d917-4dbb-4c9b-bd71-2e2ed89609f9",
+            "name": "Strategic Growth and Vision Team"
+        },
+
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "2f473849-823b-40c7-83de-2b2f2d59bbf5", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "logan.lee@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXSvNvTy7Zowoep7o-MPuZVScrlVoZJQkwg&s",
+        "phone": "+1 214-123-4567"
+    },
+    {
+        "id": "0e04c25a-3b9d-48eb-b9a6-9e77f56b9518",
+        "name": "Lily Emma Johnson",
+        "position": "Product Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Eva Fisher",
+            "country": "Canada",
+            "street": "32 Product Blvd",
+            "city": "Ottawa"
+        },
+        "team": {
+            "id": "c3e20757-81c6-48a1-b73f-b9bc84c1f41a",
+            "name": "Innovative Solutions Development Team"
+        },
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "lily.johnson@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQnG19ljI8YXx06SyanUxS8OmZp4FS6uUwWQ&s",
+        "phone": "+1 613-987-6543"
+    },
+    {
+        "id": "f4cbbe18-9865-45ea-925f-660eea395d53",
+        "name": "Mason Oliver Thompson",
+        "position": "Backend Developer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Daniel Green",
+            "country": "USA",
+            "street": "45 Dev St",
+            "city": "San Diego"
+        },
+        "team": {
+            "id": "7d3e36ff-2e0a-4f33-93b6-ffb1b84d34d0",
+            "name": "Product Innovation and Strategy Team"
+        },
+        "reportingLines": ["2e12d1f5-df3d-44b7-b23e-c51d4d0241da", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "5e93c57a-64a0-4f04-a6fd-c5f3a46c8a45"],
+        "email": "mason.thompson@example.com",
+        "image": "https://fastly.picsum.photos/id/411/200/200.jpg?hmac=OVYhfXZUSeIPuy2vvqvn56l4Y8YZjUzJ57HIaxnjdTQ",
+        "phone": "+1 858-654-1234"
+    },
+    {
+        "id": "e4abf745-50d7-48d9-8c8a-34424a8a29d0",
+        "name": "Sophia Grace Williams",
+        "position": "HR Specialist",
+        "employeeType": "external",
+        "address": {
+            "office": "Clara White",
+            "country": "UK",
+            "street": "28 People St",
+            "city": "Manchester"
+        },
+        "team": {
+            "id": "7e963f7d-1575-48a6-b9a3-21b04c1cf26f",
+            "name": "Data-Driven Insights and Analytics"
+        },
+        "reportingLines": ["4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0", "2f473849-823b-40c7-83de-2b2f2d59bbf5"],
+        "email": "sophia.williams@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdl2LGuTMuKzPeWwexknS9T99x_xral21Hrg&s",
+        "phone": "+44 161-555-6789"
+    },
+    {
+        "id": "b18f7b2b-1678-4f71-9c55-3401d925cda6",
+        "name": "Lucas Wyatt Martinez",
+        "position": "Data Scientist",
+        "employeeType": "internal",
+        "address": {
+            "office": "Frank Moore",
+            "country": "Canada",
+            "street": "37 Data Ave",
+            "city": "Toronto"
+        },
+        "team": {
+            "id": "f4d8b125-b540-46b2-bd8e-d43de3f61fd1",
+            "name": "Next-Gen Technology Integration Squad"
+        },
+
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "e3b86d5b-9634-4972-82b6-04b00e906f09"],
+        "email": "lucas.martinez@example.com",
+        "image": "https://fastly.picsum.photos/id/411/200/200.jpg?hmac=OVYhfXZUSeIPuy2vvqvn56l4Y8YZjUzJ57HIaxnjdTQ",
+        "phone": "+1 416-789-5432"
+    },
+    {
+        "id": "acfe5930-8a62-4f44-bec3-04f7f2fd7c49",
+        "name": "Amelia Grace Smith",
+        "position": "Graphic Designer",
+        "employeeType": "external",
+        "address": {
+            "office": "Eva Fisher",
+            "country": "USA",
+            "street": "19 Art St",
+            "city": "New York"
+        },
+        "team": {
+            "id": "7ba15f37-902a-4f9f-bce7-eecabf7d6d32",
+            "name": "Business Development Strategy Unit"
+        },
+
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "amelia.smith@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQou3KoVQbFicmE9sdEAWemvz6oRx0X_HTDyQ&s",
+        "phone": "+1 212-555-7689"
+    },
+    {
+        "id": "7765b358-bc1c-4b88-9003-bc73144476cd",
+        "name": "Benjamin Noah Lee",
+        "position": "Full Stack Developer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Lucas Foster",
+            "country": "Canada",
+            "street": "44 Fullstack Blvd",
+            "city": "Vancouver"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+        "reportingLines": ["da68a960-0b8b-4a25-bf29-22c37b8c1f98", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f"],
+        "email": "benjamin.lee@example.com",
+        "image": "https://fastly.picsum.photos/id/411/200/200.jpg?hmac=OVYhfXZUSeIPuy2vvqvn56l4Y8YZjUzJ57HIaxnjdTQ",
+        "phone": "+1 604-123-9876"
+    },
+    {
+        "id": "4a211b6d-3a02-4d1f-b1dd-2aeb84f5a38a",
+        "name": "Charlotte Ella Turner",
+        "position": "Systems Architect",
+        "employeeType": "external",
+        "address": {
+            "office": "Frank Moore",
+            "country": "Canada",
+            "street": "85 Systems Rd",
+            "city": "Montreal"
+        },
+        "team": {
+            "id": "07a2287c-8557-4c12-b3d5-0f4d8b34e4ab",
+            "name": "Operational Efficiency Improvement Group"
+        },
+
+        "reportingLines": ["cbf1a3b9-6b4c-4189-bebd-0c88e8a8d167", "b864b9c3-65f2-4f6b-931f-3f50f4c3f04f", "4b4c6455-7bda-4d38-bb5d-36c5d2e92bf0"],
+        "email": "charlotte.turner@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThWBS4bv6jV45IuWkM5CDzRnPewLOBSwFsyA&s",
+        "phone": "+1 514-123-9876"
+    },
+    {
+        "id": "c9b38e8c-0b2f-47a3-9c0b-c3c19829ac1e",
+        "name": "Sebastian James Brown",
+        "position": "DevOps Engineer",
+        "employeeType": "internal",
+        "address": {
+            "office": "Daniel Green",
+            "country": "USA",
+            "street": "56 Ops St",
+            "city": "Los Angeles"
+        },
+        "team": {
+            "id": "b9827a29-5f92-46ae-a7f6-e97bcf23f56f",
+            "name": "Customer Experience Excellence Team"
+        },
+        "reportingLines": ["e3b86d5b-9634-4972-82b6-04b00e906f09", "da68a960-0b8b-4a25-bf29-22c37b8c1f98", "6f8e1c56-6194-4b0d-b7fe-830ccfa2f929"],
+        "email": "sebastian.brown@example.com",
+        "image": "https://fastly.picsum.photos/id/411/200/200.jpg?hmac=OVYhfXZUSeIPuy2vvqvn56l4Y8YZjUzJ57HIaxnjdTQ",
+        "phone": "+1 213-654-3210"
+    },
+    {
+        "id": "6e6b345e-8b2c-4a5c-9a04-00a3dbf10b83",
+        "name": "Ava Sophia Scott",
+        "position": "Marketing Manager",
+        "employeeType": "external",
+        "address": {
+            "office": "Lucas Foster",
+            "country": "UK",
+            "street": "62 Marketing Blvd",
+            "city": "London"
+        },
+        "team": {
+            "id": "2d9a35f4-d4ae-4b3c-906d-7d918788e358",
+            "name": "Pioneers in Digital Transformation"
+        },
+        "reportingLines": ["f9d3a972-89a1-4d86-93c7-2a9b56eb540d", "2e12d1f5-df3d-44b7-b23e-c51d4d0241da"],
+        "email": "ava.scott@example.com",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbnnEXV3GGeHJ66RxCT2oj70n-b8CNdp_peA&s",
+        "phone": "+44 20 5555 1234"
+    }
+]
